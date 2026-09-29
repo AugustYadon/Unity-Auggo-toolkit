@@ -1,0 +1,7 @@
+{
+  "name": "AuggoToolkit.Editor",
+  "rootNamespace": "AuggoToolkit",
+  "references": ["Unity.TextMeshPro"],
+  "includePlatforms": ["Editor"],
+  "autoReferenced": true
+}

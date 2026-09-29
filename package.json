@@ -1,0 +1,10 @@
+{
+  "name": "com.auggodoggo.toolkit",
+  "version": "0.1.0",
+  "displayName": "Auggo Toolkit",
+  "description": "Reusable editor tools and UI pieces for Auggo Doggo Games projects. Store screenshot capture, device layout preview, and headless iOS builds.",
+  "unity": "6000.0",
+  "author": { "name": "August Yadon" },
+  "license": "MIT",
+  "samples": []
+}
