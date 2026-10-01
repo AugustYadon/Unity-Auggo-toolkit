@@ -1,10 +1,16 @@
 {
   "name": "com.auggodoggo.toolkit",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "displayName": "Auggo Toolkit",
-  "description": "Reusable editor tools and UI pieces for Auggo Doggo Games projects. Store screenshot capture, device layout preview, and headless iOS builds.",
+  "description": "Reusable editor tools and UI pieces for Auggo Doggo Games projects. Store screenshot capture, device layout preview, headless iOS builds, and an Inspector XY pad.",
   "unity": "6000.0",
   "author": { "name": "August Yadon" },
   "license": "MIT",
-  "samples": []
+  "samples": [
+    {
+      "displayName": "XY Pad",
+      "description": "Drag a Vector2 inside a square in the Inspector, with optional axis labels",
+      "path": "Samples~/XYPad"
+    }
+  ]
 }

@@ -21,9 +21,16 @@ here does not update consumers — delete the lock entry and let Unity re-resolv
 | `StoreScreenshots` | `Tools/Auggo/Capture Store Screenshots` | Renders the shipping scene at App Store pixel sizes |
 | `DevicePreview` | `Tools/Auggo/Preview On Devices` | Renders at real device resolutions to check layout without owning the hardware |
 | `IOSBatchBuild` | — | Headless iOS build; Unity has no command-line flag for it |
+| `[XYPad]` | — | Draws a `Vector2` as a square you drag in the Inspector, with optional axis labels. Sample: **XY Pad** |
 
-All three work with no configuration: they use the first enabled scene in Build Settings and
-write to `Builds/`, which should be gitignored.
+The three editor tools work with no configuration: they use the first enabled scene in Build
+Settings and write to `Builds/`, which should be gitignored.
+
+`[XYPad]` is split across both folders on purpose. The tag (`Runtime/XYPadAttribute.cs`) is used
+by game scripts, so it has to be in an assembly that ships in builds; the drawer that paints it
+(`Editor/XYPadDrawer.cs`) is editor-only. Inside a package the folder names are only
+[Unity's recommended layout](https://docs.unity3d.com/Manual/cus-layout.html) — what actually
+makes each side editor-only or not is its `.asmdef`.
 
 ## Samples
 

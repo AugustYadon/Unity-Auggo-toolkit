@@ -1,0 +1,6 @@
+{
+  "name": "AuggoToolkit.Runtime",
+  "rootNamespace": "AuggoToolkit",
+  "references": [],
+  "autoReferenced": true
+}

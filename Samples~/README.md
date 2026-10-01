@@ -23,5 +23,8 @@ Register each in `package.json` so Package Manager offers an Import button:
 ]
 ```
 
-Nothing here yet — the first candidates are the wheel picker and date-range picker from
-Quantum Habits.
+| Sample | What it shows |
+|---|---|
+| `XYPad/` | `[XYPad]` on two fields, one plain and one with axis labels. Select **XY Pad Demo** and drag in the Inspector |
+
+Next candidates are the wheel picker and date-range picker from Quantum Habits.
